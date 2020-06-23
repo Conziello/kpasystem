@@ -1,0 +1,62 @@
+/* Insert Your Custom CSS Here */
+.leiframe{position:relative;float:right; margin-right:0px; margin-top:0px;width:120px; height:120px;border: 2px solid #1fae66;overflow:hidden; background:#fff; padding:5px}
+.custuploadblock_js {background:url(../img/browse.png) no-repeat center;width:50px;height:50px;display:block;position:relative;overflow:hidden;cursor:pointer; float:right; margin:20px 10px 0 20px}
+.transfileform_js {font-size:50px;height:50px;position:absolute;top:0;right:0;z-index:2;border:0;padding:0;cursor:pointer;}
+
+
+#modalDiv{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:#000;
+	z-index:10;opacity:0.5
+}
+
+#alertDiv {
+	position:fixed;
+	left:40%; top:40%;
+	width:300px;
+	min-height:100px;
+	border-radius:0px;
+	background:#FFF;
+	color: #000;
+	border: 1px solid rgba(33, 33, 33, 0.6);
+	z-index:11;
+
+}
+#alertDiv .title {
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:20px;
+	background:#0085b2;
+	padding: 8px 25px;
+	color:#fff;
+	text-align:center;
+}
+#alertDiv .message {
+	background:none;
+	font-size:12px;
+	line-height:1.4;
+	padding: 15px;
+}
+#alertDiv .okBtn {
+	display: block;
+	position: relative;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+	position:relative; float:left; margin:5px 0 10px 100px; width: 50px; padding:5px; color: #333; border: 1px solid #0085b2;  background: #fff; border-radius:0px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.cleaner{ clear: both; width:100%; }
+.cleaner_h5 { clear: both; width:100%; height: 5px; }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+
+#mainp{
+	width:100%;height:100%; min-height:500px; opacity:1;
+	/*background:#f0f0f0 url(../img/watermarks/watermark.png) no-repeat right;*/
+}
+#footer{
+	position:fixed;bottom:0;width:100%;left:0;right:0;opacity:1;z-index:1000;
+}
+
+.menuitem li a{cursor:pointer;}
